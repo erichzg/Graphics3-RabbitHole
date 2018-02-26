@@ -8,8 +8,8 @@ def draw_lines( matrix, screen, color ):
         y0 = matrix[2*pair][1]
         x1 = matrix[2*pair + 1][0]
         y1 = matrix[2*pair + 1][1]
-        print("x0: " + str(x0) + ", y0: " + str(y0))
-        print("x1: " + str(x1) + ", y1: " + str(y1))
+        #print("x0: " + str(x0) + ", y0: " + str(y0))
+        #print("x1: " + str(x1) + ", y1: " + str(y1))
         draw_line(x0, y0, x1, y1, screen, color)
 
 def add_edge( matrix, x0, y0, z0, x1, y1, z1 ):
